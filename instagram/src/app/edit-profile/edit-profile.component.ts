@@ -20,6 +20,7 @@ export class EditProfileComponent implements OnInit {
   flags={
     isSignup:false
   }
+  
   profilePic: any;
   image: any;
   updatedImage: any;
