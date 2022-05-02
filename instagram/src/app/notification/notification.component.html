@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+    <h4 class="mt-3"> Notifications </h4 >
+    <div class="notifications">
+        <div class="row" *ngIf="!notificationList?.length" >
+            <h5 class="text-center"> No notifications right now </h5>
+        </div>
+        <div class="row noti mt-2 mb-3" *ngFor="let noti of notificationList">
+            <div class="col-sm-2 col-2">
+                <img class="avatar" src="{{imgUrl}}{{noti.sender.profilePic }}">
+            </div>
+            <div class="col-sm-7 col-7 p-2">
+                <p style="font-size: 16px; font-weight: 600;"> {{ noti.message }} </p>
+            </div>
+            <div class="col-sm-3 col-3 p-2">
+                <small style="font-size: 12px;"> {{ noti.date }} </small>
+            </div>
+        </div>
+    </div>
+</div>

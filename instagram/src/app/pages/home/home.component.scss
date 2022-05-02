@@ -1,0 +1,37 @@
+
+.loggedOut{
+    display: flex;
+    position: absolute;
+    top:5%;
+    left: 30%;
+    width:50%
+}
+.loginPrompt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* border: 1px solid #ccc8c8; */
+    // color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 300px;
+    padding-top: 20px;
+    cursor: pointer;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    background: #ffffff69;
+}
+// @media only screen and (max-width:768px){
+//     .instaImage{
+//         display: none;
+
+//     }
+// }
+.Image{
+    height: 99vh;
+    width:100%;
+    
+}
+
+
+
